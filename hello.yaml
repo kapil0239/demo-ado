@@ -1,0 +1,8 @@
+- bash: |
+   touch test.test
+   git config user.name "kapil0239"
+   git config  user.email "contact.kapil13@gmail.com"
+   git checkout test
+   git add .
+   git commit -m "new file"
+   git push origin test
