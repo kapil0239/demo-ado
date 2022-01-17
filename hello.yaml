@@ -1,3 +1,6 @@
+pool:
+  vmImage: ubuntu-latest
+steps:
 - bash: |
    touch test.test
    git config user.name "kapil0239"
